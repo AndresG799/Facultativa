@@ -34,5 +34,13 @@ ul{
     padding: 20px 0px;
 }
 .nav-logo{
+    margin: auto;
     width: 150px;
+}
+/*Nav-r*/
+.nav-main ul {
+    display: flex;
+}
+.nav-main ul li {
+    padding: 10px;
 }
