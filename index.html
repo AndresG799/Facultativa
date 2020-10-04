@@ -9,12 +9,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,100;0,200;1,100;1,200&family=Roboto:ital,wght@0,500;1,300;1,400;1,900&display=swap" rel="stylesheet">
     <!--CSS Personalisado-->
     <link rel="stylesheet" href="css/style.css">
+    <!--Slider-->
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 </head>
-<body>
-    <h1>Ultimas Noticias</h1>
+<body>  
     <div class="container">
+        
         <nav class="nav-main">
-            <img src="img/logo-plumaN.png" alt="UNAN-Logo" class="nav-logo">
+            <img src="img/Logo/logo-plumaN.png" alt="UNAN-Logo" class="nav-logo">
             <ul class="nav-menu">
                 <li>
                     <a href="">Inicio</a>
@@ -52,8 +57,41 @@
                 </li>
             </ul>
         </nav >
+        <div class="slider">
+            <ul class="slider1">
+                <li><img src="img/slider/" alt=""></li>
+              </ul>
+              <ul class="slider2">
+                <li><img src="img/slider/" alt=""></li>
+              </ul>
+              <ul class="slider3">
+                <li><img src="img/slider/" alt=""></li>
+              </ul>
+            
+          </div>
             
     </div>
-   
+    <script>
+        $(document).ready(function(){
+
+            $('.slider1').bxSlider({
+                mode: 'fade'
+            });
+            $('.slider2').bxSlider({
+                mode: 'fade'
+            });
+            $('.slider3').bxSlider({
+                mode: 'fade'
+            });
+            $('.slider').bxSlider({
+                    auto: true,
+                    autoControls: true,
+                    stopAutoOnClick: true,
+                    pager: true,
+                    slideWidth: 1500
+                });
+        });
+      </script>
+    
 </body>
 </html>
