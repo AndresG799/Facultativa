@@ -1,0 +1,37 @@
+.container{
+    margin: auto;
+}
+/*Navegacion*/
+.nav-main{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0px;
+}
+.nav-logo{
+    margin: auto;
+    padding: 10px;
+    width: 90px;
+}
+/*Nav-L*/
+.nav-main ul {
+    display: flex;
+}
+.nav-main ul li {
+    padding: 10px;
+}
+.nav-main ul li a:hover{
+    border-bottom: 2px solid #ffffff;
+}
+.nav-main ul.nav-menu{
+    flex: 1;
+    margin-left: 20px;
+}
+
+.slider img {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+  }
