@@ -2,12 +2,13 @@
 
 .container{
     margin: auto;
+    background-color: #000000;
 }
 /*Navegacion*/
 .nav-main{
     font-size: 17px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     height: 60px;
     padding: 20px 0px;
@@ -23,6 +24,8 @@
 }
 .nav-main ul li {
     padding: 10px;
+    font-style: #ffffff;
+    color: #ffffff;
 }
 .nav-main ul li a:hover{
     border-bottom: 2px solid #ffffff;
@@ -32,3 +35,12 @@
     margin-left: 20px;
 }
 
+.nav-main ul li a h3{
+    color: #ffffff;
+    font-style: none;
+}
+
+.nav-main img{
+    justify-content: flex-start;
+
+}
